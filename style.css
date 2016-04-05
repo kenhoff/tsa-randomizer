@@ -1,0 +1,58 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.app > * {
+    margin: auto;
+}
+.header {
+    box-sizing: border-box;
+    height: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.header > h1 {
+    
+}
+button {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.randomizeButton {
+    width: 100%;
+    height: 50px;
+}
+.arrows {
+    display: flex;
+    flex-direction: row;
+}
+.shit-talking {
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+}
+.shit-talking > p {
+    margin: auto;
+}
+.hofftech-footer {
+    display: flex;
+    height: 50px;
+    font-family: 'EB Garamond', serif;
+    margin: 0px auto 0px auto;
+}
+.hofftech-footer > p {
+    margin: auto;
+}
+.hofftech-logo {
+    font-family: 'Montserrat', sans-serif;
+}
